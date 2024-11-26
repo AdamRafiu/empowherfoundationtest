@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmpowHer</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!-- Wrapper Container -->
+    <div class="wrapper">
+      <!-- Header Content -->
+      <div class="header-content">
+        <!-- Aside Header -->
+        <header>
+          <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+              <a href="#">
+                <img src="logo.png" alt="EmpowHer logo" />
+                <span class="logo-text">EmpowHer</span>
+              </a>
+            </div>
+            <!-- Navigation Links -->
+            <nav class="nav-links">
+              <ul>
+                <li>
+                  <a href="#home"
+                    ><i class="fas fa-home"></i> <span>Home</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#gallery"
+                    ><i class="fas fa-images"></i> <span>Gallery</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#objectives"
+                    ><i class="fas fa-bullseye"></i> <span>Objectives</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#mission"
+                    > <i class="fas fa-flag"></i><span>Vision</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#vision"
+                    ><i class="fas fa-eye"></i> <span>Mission</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#contact"
+                    ><i class="fas fa-envelope"></i> <span>Contact</span></a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <!-- Header Profile -->
+        <div class="header-profile" id="home">
+          <div class="profile-content">
+            <h1>Welcome to EmpowHer</h1>
+            <p>Empowering individuals and communities to achieve greatness.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+          </div>
+        </div>
+        <main class="main">
+          <section id="gallery">
+            <div class="homeHeader">
+              <h1>EmpowHer Foundation Gallery</h1>
+            </div>
+
+            <div class="gallery">
+              <!-- Image Thumbnails -->
+              <img src="empowher1.jpg" alt="Image 1" class="gallery-item">
+              <img src="empowher17.jpg" alt="Image 2" class="gallery-item">
+              <video class="gallery-item" controls>
+                <source src="empowher4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <video class="gallery-item" controls>
+                <source src="empowher6.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <img src="empowher18.jpg" alt="Image 3" class="gallery-item">
+              <video class="gallery-item" controls>
+                <source src="empowher2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <video class="gallery-item" controls>
+                <source src="empowher19.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <img src="empowher5.jpg" alt="Image 4" class="gallery-item">
+            </div>
+          
+            <!-- Modal -->
+            <div class="modal" id="modal">
+              <span class="close">&times;</span>
+              <div class="modal-content">
+                <img id="modal-img" src="" alt="Full View">
+                <video id="modal-video" controls hidden></video>
+              </div>
+            </div>
+          
+          </section>
+          <section id="objectives">
+            <section class="objectives-section">
+              <!-- Header Container -->
+              <div class="header-container">
+                <h2>EmpowHer Foundation Objectives</h2>
+              </div>
+            
+              <!-- Objectives Container -->
+              <div class="objectives-container">
+                <!-- Objective 1 -->
+                <div class="objective">
+                  <i class="fas fa-book-reader"></i>
+                  <h3>Advocating for Girls' Education</h3>
+                  <p>The foundation actively campaigns for equal access to education by eliminating barriers and advocating for policy changes.</p>
+                </div>
+            
+                <!-- Objective 2 -->
+                <div class="objective">
+                  <i class="fas fa-chalkboard-teacher"></i>
+                  <h3>Organizing Educational Seminars</h3>
+                  <p>Hosting workshops to provide life skills, career guidance, and knowledge about health and safety for young girls.</p>
+                </div>
+            
+                <!-- Objective 3 -->
+                <div class="objective">
+                  <i class="fas fa-balance-scale"></i>
+                  <h3>Campaigning for Girls' Rights</h3>
+                  <p>Advocating for the protection of girls against abuse, exploitation, and discrimination through community initiatives.</p>
+                </div>
+            
+                <!-- Objective 4 -->
+                <div class="objective">
+                  <i class="fas fa-bullhorn"></i>
+                  <h3>Engaging Media and Social Platforms</h3>
+                  <p>Spreading awareness through media and influencing societal attitudes to support girls’ education and development.</p>
+                </div>
+            
+                <!-- Objective 5 -->
+                <div class="objective">
+                  <i class="fas fa-users"></i>
+                  <h3>Conducting Sensitization Programs</h3>
+                  <p>Fostering understanding among stakeholders to build collective responsibility for empowering girls.</p>
+                </div>
+            
+                <!-- Objective 6 -->
+                <div class="objective">
+                  <i class="fas fa-handshake"></i>
+                  <h3>Providing Mentorship Opportunities</h3>
+                  <p>Connecting young girls with role models to guide their academic, professional, and personal growth.</p>
+                </div>
+            
+                <!-- Objective 7 -->
+                <div class="objective">
+                  <i class="fas fa-lightbulb"></i>
+                  <h3>Promoting Entrepreneurship</h3>
+                  <p>Training girls and women in entrepreneurial skills to foster innovation and economic empowerment.</p>
+                </div>
+            
+                <!-- Objective 8 -->
+                <div class="objective">
+                  <i class="fas fa-heart"></i>
+                  <h3>Addressing Menstrual Health and Hygiene</h3>
+                  <p>Providing access to sanitary products and education to ensure girls don’t miss school due to menstruation.</p>
+                </div>
+            
+                <!-- Objective 9 -->
+                <div class="objective">
+                  <i class="fas fa-hands-helping"></i>
+                  <h3>Encouraging Community Involvement</h3>
+                  <p>Engaging communities to create a supportive ecosystem for girls and advocate for gender equality.</p>
+                </div>
+              </div>
+            </section>
+            
+          </section>
+          <section id="mission">
+            <div class="containerVision">
+              <h3 class="visionHeader">EmpowHer Foundation Vision</h3>
+              <!-- Sections Container -->
+              <div class="sectionsContainer">
+                  <!-- Section 1 -->
+                  <div class="section">
+                      <div class="icon">
+                          <i class="fas fa-school"></i>
+                      </div>
+                      <div class="textContainer">
+                          <h4>About EmpowHer Foundation</h4>
+                          <p>
+                              EmpowHer Foundation tackles barriers hindering girls' education—like gender-based violence, financial struggles, and societal pressures—leading to school dropouts. Through support like sanitary products, mentorship, and entrepreneurial training, the foundation empowers young women to overcome challenges, stay in school, and reach their full potential.
+                          </p>
+                      </div>
+                  </div>
+                  <!-- Section 2 -->
+                  <div class="section">
+                      <div class="icon">
+                          <i class="fas fa-book-reader"></i>
+                      </div>
+                      <div class="textContainer">
+                          <h4>Advocating for Girls' Education</h4>
+                          <p>
+                              EmpowHer Foundation champions equal education, viewing it as a fundamental right and key to societal progress. By raising awareness, partnering with schools, and advocating policy changes, the foundation tackles cultural and social barriers, encouraging communities to prioritize girls' education and expand their opportunities for a brighter future.
+                          </p>
+                      </div>
+                  </div>
+                  <!-- Section 3 -->
+                  <div class="section">
+                      <div class="icon">
+                          <i class="fas fa-chalkboard-teacher"></i>
+                      </div>
+                      <div class="textContainer">
+                          <h4>Organizing Educational Seminars</h4>
+                          <p>
+                              EmpowHer Foundation organizes seminars and workshops to equip girls with life skills, academic tools, and health knowledge. These events build confidence, inspire ambition, and foster resilience. Career guidance and holistic development prepare participants to overcome challenges, empowering them to pursue education and achieve a successful, well-rounded future.
+                          </p>
+                      </div>
+                  </div>
+                  <!-- Section 4 -->
+                  <div class="section">
+                      <div class="icon">
+                          <i class="fas fa-fist-raised"></i>
+                      </div>
+                      <div class="textContainer">
+                          <h4>Campaigning for Girls' Rights</h4>
+                          <p>
+                              EmpowHer Foundation defends girls' rights, safeguarding them from discrimination, abuse, and exploitation. It promotes safe, inclusive spaces, empowering girls to follow their dreams without fear. Public campaigns stress gender equality, aiming to break down barriers that hinder girls’ development and ensure they can thrive and achieve their potential.
+                          </p>
+                      </div>
+                  </div>
+                  <!-- Section 5 -->
+                  <div class="section">
+                      <div class="icon">
+                          <i class="fas fa-bullhorn"></i>
+                      </div>
+                      <div class="textContainer">
+                          <h4>Engaging Media and Social Platforms</h4>
+                          <p>
+                              EmpowHer Foundation uses media to shift societal attitudes, sharing inspiring stories and educational content that highlight the importance of girls' education. By engaging parents, guardians, and communities, the foundation builds support. Social media amplifies campaigns, shares successes, and unites people in a collective movement for empowering girls through education.
+                          </p>
+                      </div>
+                  </div>
+                  <!-- Section 6 -->
+                  <div class="section">
+                      <div class="icon">
+                          <i class="fas fa-hands-helping"></i>
+                      </div>
+                      <div class="textContainer">
+                          <h4>Conducting Sensitization Programs</h4>
+                          <p>
+                              EmpowHer Foundation leads sensitization programs for parents, educators, and leaders, focusing on gender equality, preventing dropouts, and combating early marriage. These initiatives foster a shared understanding of the challenges girls face, emphasizing community support to overcome them. The goal is a united effort to ensure every girl's success and empowerment.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </section>
+          <section id="vision">
+            <div class="missionContainer">
+              <div class="missionHeader">
+                <h4>EmpowHer Foundation Mission</h4>
+              </div>
+              <div class="missionContent">
+                <div class="missionSection">
+                  <h5>Inspiring Young Girls and Women</h5>
+                  <p>EmpowHer Foundation aims to inspire young girls and women by showcasing role models and stories of success from various backgrounds.</p>
+                </div>
+                <div class="missionSection">
+                  <h5>Mentoring for Personal Growth</h5>
+                  <p>Through mentorship, the foundation supports girls in discovering their strengths, helping them develop confidence, resilience, and leadership skills for success.</p>
+                </div>
+                <div class="missionSection">
+                  <h5>Promoting Access to Quality Education</h5>
+                  <p>EmpowHer Foundation advocates for accessible and quality education, ensuring that girls in deprived communities have equal learning opportunities and resources.</p>
+                </div>
+                <div class="missionSection">
+                  <h5>Developing Entrepreneurial Skills</h5>
+                  <p>The foundation empowers girls with entrepreneurial training, preparing them to create and manage successful businesses, fostering independence and self-sufficiency.</p>
+                </div>
+                <div class="missionSection">
+                  <h5>Realizing Full Potential as Leaders</h5>
+                  <p>EmpowHer Foundation nurtures leadership qualities in girls and women, providing tools and opportunities to become future leaders in various fields.</p>
+                </div>
+                <div class="missionSection">
+                  <h5>Supporting Future Female Leaders</h5>
+                  <p>By empowering girls with education and skills, the foundation creates pathways for them to become influential leaders, shaping future communities.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="contact">
+            <div class="container" id="formContact">
+              <h5>Contact EmpowHer Foundation</h5>
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Write your message here" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer class="footer">
+        <p>
+          © 2024 EmpowHer Foundation, Inc. All rights reserved. Designed by 
+          <a href="https://wa.me/0555522844" target="_blank" rel="noopener noreferrer">Stead Fast Lab</a>.
+        </p>
+      </footer>
+      
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

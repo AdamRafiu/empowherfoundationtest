@@ -141,7 +141,7 @@ background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(135deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.2) 100%), url('/empowher5.jpg'); /* Replace with your image URL */
+    background:linear-gradient(135deg, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.2) 100%), url('empowher5.jpg'); /* Replace with your image URL */
     background-size: cover;
     mask-image: radial-gradient(circle, rgb(158, 34, 34) 70%, rgba(150, 5, 158, 0) 100%);
     background-position: center;
